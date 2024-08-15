@@ -69,7 +69,7 @@ async def start_cmd(bot, message):
         caption=f"<b>Hey, {message.from_user.mention}\n\nI'm an auto-caption bot. I automatically edit captions for videos, audio files, and documents posted on channels.\n\nuse <code>/set_caption</code> to set caption\nUse<code>/delcaption</code> To delete caption and set caption to default.\n\nNote:All commands works on channels only</b>",
         reply_markup=types.InlineKeyboardMarkup([[
             types.InlineKeyboardButton('Main Channel', url='https://t.me/+rHUQPX1GtcI1NzRl'),
-            types.InlineKeyboardButton('Help Group', url='https://t.me/IGC_SCOTT')
+            types.InlineKeyboardButton('Help Group', url='https://t.me/SWEETGUJJUBOT')
             ],[
             types.InlineKeyboardButton('🔥 Source Code 🔥', url='https://github.com/RknDeveloper/Rkn-AutoCaptionBot')
     ]]))
